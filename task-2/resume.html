@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>RI-resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="iconfinder.png" type="image/png" />
+</head>
+<body>
+<main>
+    <div class="main">
+        
+<header>
+        <div class="logo">
+            <a href="./index.html">
+                <img src="./img/logo.jpg" height="100"/>
+            </a>
+        </div>
+</header>
+<nav>
+             <div class="nav" align="center">
+                  <a href="./index.html">Главная</a>
+                  <a href="./blog.html">Блог компании</a>
+                  <a href="./video.html">Видеогалерея</a>
+                  <a href="./resume.html">Отправить резюме</a>
+             </div>
+             <div class="navig" align="center">
+                <a href="./index.html">Главная</a>
+                <a>>Резюме</a>
+             </div>
+</nav>
+<section>
+          <form>
+              <h3>Заполните анкету</h3>
+              <p><sup>*</sup>Все поля формы являются обязательными.</p>
+
+              <label><p>Ваше имя<input type="text" name="lastname" placeholder="Илья" required="required" /></p></label>
+              <label><p>Ваша фамилия<input type="text" name="firstname" placeholder="Ильянов" required="required" /></p></label>
+              <label><p>Дата рождения<input type="date" name="data" required="required"/></p></label>
+              
+              <label>
+                <div>
+                    <p>Образование<select name="obraz" required="required">
+                        <option value="no" selected>Нет</option>
+                        <option value="sr">среднее</option>
+                        <option value="sr-sp">средне-специальное</option>
+                        <option value="nov">неоконченное высшее</option>
+                        <option value="v">высшее</option>
+                        <option value="twov">два высших и более</option>
+                    </select></p>
+                </div>
+              </label>
+
+                <div>
+                  <p>Семейное положение</p>
+                   <p><label>
+                        <input type="radio" name="status" checked/><span>В браке</span>
+                      </label>
+                      </p>
+                   <p><label>
+                    <input type="radio" name="status"/><span>Не в браке</span>
+                  </label>
+                  </p>
+                </div>
+
+                    <div>
+                        <p>Список языков, которые знает кандидат</p>
+                      <label><p><input type="checkbox" checked /><span>русский</span></p></label>
+                      <label><p><input type="checkbox"/><span>английский</span></p></label>
+                      <label><p><input type="checkbox"/><span>немецкий</span></p></label>
+                      <label><p><input type="checkbox"/><span>французкий</span></p></label>
+                      <label><p><input type="checkbox"/><span>итальянский</span></p></label>
+                      <label><p><input type="checkbox"/><span>испанский</span></p></label>
+                      <label><p><input type="checkbox"/><span>китайский</span></p></label>
+                    </div>
+
+                    <label><p>Опыт работы в месяцах<input type="number" min="1" max="360" required="required" /></p></label>
+
+                    <div>
+                        <p>Места работы</p>
+                        <textarea placeholder="Напишите все места где работали" required="required"></textarea>
+                    </div>
+                    <div>
+                        <p>О себе</p>
+                        <textarea placeholder="Расскажите немного о себе" required="required"></textarea>
+                    </div>
+
+                    <div>
+                        <p>Есть ли водительские права?</p>
+                         <p><label>
+                              <input type="radio" name="prava" checked/><span>Да</span>
+                            </label>
+                            </p>
+                         <p><label>
+                          <input type="radio" name="prava"/><span>Нет</span>
+                        </label>
+                        </p>
+                      </div>
+
+                      <p><label><span>email</span>
+                        <input type="email" name="email" autocomplete="off" required="required" placeholder="Ваш email"/>
+                        </label></p>
+
+                        <p><input type="submit" value="Отправить" /></p>
+            </form>
+</section>
+
+     </div>
+</main>
+</body>
+</html>
